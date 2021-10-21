@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# PATIENTS MANAGEMENT SYSTEM APP :tw-1f415: :tw-1f415: :tw-1f43e:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a management system for patients in a vet, the user can create and book an appointment clicking on the button "crear cita" it will take to the user to a form where there are fields to complete such as name, pet name, cellphone number, date, hour, symptoms of the pet, it has a validation in case the user wanna send an empty field(s) or not right value.
 
-## Available Scripts
+In the main interface the user can click on the appointment of any patient and delete it just clicking the button "eliminar" it has a validation where the user needs to confirm if they are completely secure to do that action.
 
-In the project directory, you can run:
+The project was made using the Model-View-Controller pattern design
+The frontend is made with React js, Javascript, bootstrap, css,html
+The backend is made with Node js using express, axios.
+The database for this project is MongoDB
 
-### `yarn start`
+The backend deployment was made on Heroku
+The database is using MondoDB Atlas
+The frontend deployment was made on Netlify.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### LINK OF THE DEPLOYED PROJECT
+Netlify: https://management-system-mern-app.netlify.app/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### TECHNOLOGIES USED IN THIS PROJECT:
+###### REACT
+###### NODE
+###### EXPRESS
+###### JAVASCRIPT
+###### MONGODB
+###### AXIOS
+###### HTML
+###### CSS
+###### BOOTSTRAP
+###### NPM
+###### GIT
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
