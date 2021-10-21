@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #aa076b;
+  background: -webkit-linear-gradient(to right, #61045f, #aa076b);
+  background: linear-gradient(to right, #61045f, #aa076b);
+  font-size: 1.6rem;
+  background-image: url("../background1.jpeg");
+}
+
+h1 {
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  color: white;
+  font-size: 4rem;
+}
+
+h3 {
+  font-family: "Staatliches", cursive;
+  color: #aa076b;
+  font-size: 2.4rem;
+}
+.btn {
+  font-size: 1.4rem;
+  background-color: #aa076b;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #770b4e;
+}
+.fecha-alta {
+  font-family: "Staatliches", cursive;
+  color: #aa076b;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.contacto p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.list-group-item:hover {
+  background: white;
+}
+form {
+  border-radius: 0.3rem;
+}
+
+.bg-title {
+  width: 55%;
+  height: 50px;
+  background-color: #aa076b;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+.nueva-cita {
+  width: 65%;
+}
+
+.sin-pacientes {
+  width: 35%;
+}
